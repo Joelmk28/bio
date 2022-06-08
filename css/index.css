@@ -1,0 +1,192 @@
+    /** {
+        overflow: auto;
+    }*/
+    
+    body {
+        background-color: #8BA1BB;
+        font-family: Arial;
+        margin: 0;
+    }
+    
+    .mon_lien {
+        text-align: center;
+        margin: 0;
+    }
+    
+    .mon_lien a,
+    a {
+        text-decoration: none;
+    }
+    
+    .titre {
+        text-align: center;
+    }
+    
+    .contenair_immo {
+        text-align: center;
+        margin-bottom: -35px;
+    }
+    
+    .immo {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        padding: 10px 20px;
+    }
+    
+    .Contenu {
+        background-color: white;
+        margin: 0px 10% 60px 10%;
+        padding: 30px;
+    }
+    
+    .MonImage {
+        width: 100%;
+        object-fit: cover;
+        min-height: 300px;
+    }
+    
+    p.description {
+        text-align: center;
+        display: inline-block;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    .separateur {
+        background-color: orangered;
+        width: 100px;
+        height: 2px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    div.description {
+        text-align: center;
+    }
+    
+    .conenair_img_tableau {
+        position: relative;
+    }
+    
+    .Montableau {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 80px;
+        color: white;
+        background-color: #6C829DC0;
+    }
+    
+    .Montableau td {
+        text-align: center;
+        border-top: 20px;
+    }
+    
+    .Montableau td a {
+        text-align: center;
+        border-top: 20px;
+        color: black;
+        font-size: 14px;
+    }
+    
+    .Mesicones {
+        margin-left: 5px;
+    }
+    
+    .Montableau td a:hover {
+        color: orangered;
+    }
+    
+    .Montableau th {
+        font-size: 18px;
+        background-color: orangered;
+    }
+    
+    .colonne {
+        width: 45%;
+        margin-top: 20px;
+        padding: 5px;
+    }
+    
+    .colonne h4 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 18px;
+        border-bottom: 5px solid #6C829D;
+    }
+    
+    .colonne1 {
+        display: inline-block;
+    }
+    
+    div.colonne ul .MaProgression {
+        /*border: 1px solid #020202;*/
+        border-radius: 20px 20px 20px 20px;
+        padding: 1px;
+        font-size: 20px;
+        margin-bottom: 5px;
+        height: 20px;
+        /*background-color: #6C829D;*/
+    }
+    
+    div.colonne ul .MaProgression span {
+        color: white;
+        font-size: 14px;
+    }
+    
+    div.colonne ul .MaProgression .MnHtml {
+        width: 98%;
+    }
+    
+    div.colonne ul .MaProgression .CouleurPogression {
+        background-color: black;
+        font-size: 12px;
+    }
+    
+    .colonne2 {
+        float: right;
+    }
+    
+    .colonne1 div {
+        text-align: center;
+    }
+    
+    .preparation .numero {
+        background-color: #6C829D;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        font-size: 16px;
+        padding-top: 4px;
+        box-sizing: border-box;
+        margin: 0 0 15px 0;
+    }
+    
+    .preparation td {
+        vertical-align: top;
+    }
+    
+    .preparation .text_td {
+        font-size: 14px;
+    }
+    /*reponsive*/
+    
+    @media (max-width: 500px) {
+        .MonImage {
+            border-radius: 50% 50% 50% 50%;
+            height: 100%;
+        }
+        .colonne1 {
+            display: block;
+            width: 100%;
+        }
+        .colonne2 {
+            float: none;
+            width: 100%;
+        }
+        .Mesicones {
+            font-size: 12px;
+        }
+    }
